@@ -1,0 +1,10 @@
+# values.yaml
+image:
+  repository: nginx        # Docker image repository (e.g., nginx, myapp/image, etc.)
+  tag: latest              # Docker image tag (e.g., v1.0, stable, etc.)
+  pullPolicy: IfNotPresent # Image pull policy (e.g., Always, IfNotPresent)
+
+replicaCount: 1          # Number of replicas (pods) to run
+service:
+  type: ClusterIP        # Service type (ClusterIP, NodePort, LoadBalancer)
+  port: 80               # Port for the service
