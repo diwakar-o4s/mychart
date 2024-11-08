@@ -6,5 +6,6 @@ image:
 
 replicaCount: 1          # Number of replicas (pods) to run
 service:
-  type: ClusterIP        # Service type (ClusterIP, NodePort, LoadBalancer)
+  type: NodePort        # Service type (ClusterIP, NodePort, LoadBalancer)
   port: 80               # Port for the service
+  nodePort: 30001
