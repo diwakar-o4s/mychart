@@ -1,6 +1,6 @@
 # values.yaml
 image:
-  repository: httpd
+  repository: nginx
   tag: latest
   pullPolicy: IfNotPresent # Image pull policy (e.g., Always, IfNotPresent)
 
