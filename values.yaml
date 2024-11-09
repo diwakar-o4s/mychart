@@ -1,6 +1,6 @@
 # values.yaml
 image:
-  repository: nginx        # Docker image repository (e.g., nginx, myapp/image, etc.)
+  repository: httpd        # Docker image repository (e.g., nginx, myapp/image, etc.)
   tag: latest              # Docker image tag (e.g., v1.0, stable, etc.)
   pullPolicy: IfNotPresent # Image pull policy (e.g., Always, IfNotPresent)
 
