@@ -1,7 +1,7 @@
 # values.yaml
 image:
-  repository: nginx       # Docker image repository (e.g., nginx, myapp/image, etc.)
-  tag: latest              # Docker image tag (e.g., v1.0, stable, etc.)
+  repository: httpd
+  tag: latest
   pullPolicy: IfNotPresent # Image pull policy (e.g., Always, IfNotPresent)
 
 replicaCount: 1          # Number of replicas (pods) to run
